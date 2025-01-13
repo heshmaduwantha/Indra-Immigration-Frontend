@@ -1,0 +1,92 @@
+
+
+body {
+    font-family: 'Poppins', sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+h1{
+    font-size: 35px;
+    font-weight: 700;
+}
+
+h2{
+    font-size: 24px;
+    font-weight: 700;
+}
+
+
+h3{
+    font-size: 45px;
+}
+
+h4{ 
+    font-size: 40px;
+}
+
+h5{
+    font-size: 12px;
+}
+
+h6{
+    font-size: 30px;
+}
+
+p{
+    font-size: 18px;
+    line-height: 1.5;
+    color: var(--normal-font-color);
+}
+
+.carousel-caption {
+    bottom: 50%;
+    text-align: left;
+    left: 20%;
+}
+ 
+.button1 {
+    border: none;
+    color: white;
+    padding: 10px 18px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+    margin: 4px 2px;
+    cursor: pointer;
+    background-color: #215273;
+    border-radius: 12px;
+
+} 
+
+.image-container {
+    position: relative; 
+}
+
+.image-container {
+    position: relative;
+    width: 100%; /* Ensure image container takes up full width of the column */
+}
+
+.overlay {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: #215273;  
+    color: white;
+    padding: 10px 10px;  
+    text-align: center;
+    font-size: 1.125rem;
+    font-weight: bold;
+    border-bottom-left-radius: 40px;
+    border-bottom-right-radius: 40px;
+    box-sizing: border-box;  
+    height: 17%;  
+}
+
+.img-fluid {
+    width: 100%;  
+    height: auto; 
+}
