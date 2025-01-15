@@ -20,11 +20,12 @@ h3 {
 }
 
 h4 {
-    font-size: 40px;
+    font-size: 18px;
 }
 
 h5 {
     font-size: 12px;
+    font-weight: 5000px;
 }
 
 h6 {
@@ -37,10 +38,27 @@ p {
     color: var(--normal-font-color);
 }
 
-.carousel-caption {
+
+/* .carousel-caption {
     bottom: 40%;
     text-align: left;
     left: 20%;
+} */
+
+.banner-caption {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.banner-container{
+    position: relative;
+}
+
+.banner-content{
+    position: absolute;
+    transform: translateY(-50%);
+    top: 50%;
 }
 
  
@@ -551,4 +569,18 @@ footer {
     font-size: 12px;
     font-weight: normal;
     color: #003d82;  
+}
+
+ul {
+    list-style: none;
+    color: #0f4062;
+}
+
+ul li::before {
+    content: ".";
+    color: #0f4062;
+    font-size: 18px;
+    font-weight: bold;
+    display: inline-block;
+    width: 15px;
 }
