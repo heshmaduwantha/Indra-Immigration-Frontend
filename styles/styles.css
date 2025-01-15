@@ -584,3 +584,17 @@ ul li::before {
     display: inline-block;
     width: 15px;
 }
+
+.testimonial-card{
+
+    border: 3px solid black;
+    padding: 30px;
+    color:#0f4062 ;
+    border-radius: 0 20px 20px 20px;
+    
+
+}
+
+.testimonial-card p{
+    font-size: 12px;
+}
