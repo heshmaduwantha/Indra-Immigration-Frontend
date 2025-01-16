@@ -598,3 +598,19 @@ ul li::before {
 .testimonial-card p{
     font-size: 12px;
 }
+
+.recruit-card{
+    background-color: #F4F4F4;
+    padding: 30px;
+    border-radius: 20px 20px 20px 20px;
+    color:#0f4062 ;
+    
+
+}
+
+.recruit-card-sub{
+    background-color: #F4F4F4;
+    border: 1px solid black;
+    /* border-radius: 20px 20px 20px 20px; */
+
+}
