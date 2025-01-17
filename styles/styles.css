@@ -614,3 +614,44 @@ ul li::before {
     /* border-radius: 20px 20px 20px 20px; */
 
 }
+.founders-images {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+
+.founder-image-container {
+    flex: 1;
+    position: relative;
+}
+
+.founder-image-container img {
+    width: 100%;
+    height: auto;
+}
+
+
+
+.overlay {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: #215273;
+    color: white;
+    font-size: 10px;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+.founders-images {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+
+.founder-image-container {
+    max-width: 40%;
+}
+
+ 
